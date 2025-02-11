@@ -12,6 +12,9 @@ for (let i = 1; i < 100; i++) {             // definisco la variabile i, se è i
     console.log("FizzBuzz");                // stampo fizzbuzz
   } else if (i % 3 == 0) {                  // se i è divisibile senza resto per 3
     console.log("Fizz");                    // stampo fizz
+  } else if (i % 5 == 0) {                  // se i è divisibile senza resto per 5
+    console.log("Buzz");                    // stampo buzz
+
   }
 
 }
